@@ -1,0 +1,32 @@
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--red-color);
+  height: 70px;
+
+  &--scope {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__container--main {
+    display: flex;
+
+    div {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 678px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+}

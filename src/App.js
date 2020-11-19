@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.scss";
 import Card from "./components/Card";
+import { Header } from "./components/headers";
 
 function App() {
   const arr = [
@@ -33,9 +34,13 @@ function App() {
   };
 
   return (
-    <div className={"container"}>
-      <div className={"block"}>{elmCard()}</div>
-    </div>
+    <>
+      <Header />
+
+      <div className={"container"}>
+        <div className={"block"}>{elmCard()}</div>
+      </div>
+    </>
   );
 }
 
