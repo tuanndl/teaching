@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #333;
+  width: 225px;
+  margin: 10px;
+
+  .card__header--image {
+    display: flex;
+    position: relative;
+    img {
+      width: 100%;
+      border-bottom: 1px solid #333;
+    }
+  }
+
+  .card__header--detail {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+  }
+
+  .card__footer--name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .card__footer--note {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 14px;
+    color: #999999;
+  }
+}

@@ -1,0 +1,11 @@
+.block {
+  width: 1000px;
+  display: flex;
+  flex-direction: "row";
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
